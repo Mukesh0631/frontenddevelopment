@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>
+         Customer registration
+        </title>
+    </head>
+    <body>
+        <center>
+            <form action="onclick">
+                <h1 align="center">Customer registration</h1>
+                <lable>username :</lable>
+                <input type="text" autofocus pattern="[A-Za-z]"maxlength="15">
+                <br>
+                <br>
+                <lable>password</lable>
+                <input type="password" pattern="[A-Za-z1-9]" minlength="8" maxlength="12">
+                <br>
+                <br>
+                <lable>e-mail</lable>
+                <input type="email" pattern="[a-zA-Z0-9@.]" >
+                <br>
+                <br>
+                <lable>gender :</lable>
+                <lable>male</lable>
+                <input type="radio" value="male" name="gender">
+                <lable>female</lable>
+                <input type="radio" value="female" name="gender">
+                <br>
+                <br>
+                <lable>age (yrs)</lable>
+                <input type="text" pattern="[0-9]" minlength="12" maxlength="60" size="4">
+                <br>
+                <br>
+                <lable>address</lable>
+                <textarea rows="4" cols="20"></textarea>
+                <br>
+                <br>
+                <lable>company website  :</lable>
+                <br>
+                <br>
+                <lable>choose country</lable>
+                <select name="choose country  :">
+                <option value="india">india</option>
+                <option value="united states">united states</option>
+                <option value="germany">germany</option>
+                <option value="japan">japan</option>
+                </select>
+                <br>
+                <br>
+                <lable>date of journey</lable>
+                <input type=date>
+                <br>
+                <br>
+                <input type="submit">
+                <input type="reset">
+        </center>
+        </form>
+    </body>
+</html>
